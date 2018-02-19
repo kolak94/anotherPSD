@@ -1,0 +1,335 @@
+/* default style*/
+body {
+	font-family: 'Roboto Slab', serif;
+}
+.container {
+	margin: 0 auto;
+}
+
+.row {
+	margin-left: 0;
+	margin-right: 0;
+}
+.ourNewsShow {
+	opacity: 0;
+}
+
+/*navbar style */
+.navbar-default {
+	background-color: #fff;
+	border: none;
+	border-color: none;
+	background-image: none;
+	box-shadow: none;
+	padding-top: 20px;
+	margin-bottom: 0;
+}
+.navbar-nav li {
+	margin: 20px 7px;
+}
+.navbar-nav li a {
+	color: #edeff1;
+	font-size: 18px;
+	line-height:0.9em;
+	font-weight: 400;
+	padding: 15px 15px;
+
+}
+.navbar-header {
+	padding-left: 120px;
+	margin: 15px 15px;
+}
+.navbar-header .navbar-brand {
+	margin-top: -24px;
+	padding: 0;
+}
+.navbar-header a h3 {
+	color: #31353e;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 36px;
+	margin-bottom: 0;
+}
+.navbar-header a p {
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 36px;
+	letter-spacing: 0.96px;
+	color: #dd4b2b;
+}
+
+.btn-default {
+	background-color: none;
+	background-image: none;
+}
+.navbar-default .navbar-nav>.active>a {
+	border-radius: 40px;
+	border: 1px solid #9fabba;
+	background-color: #dd4b2b;
+	background-image: none;
+	color: #fff
+}
+.navbar-default .navbar-nav>.active>a:hover{
+	background-color: #fff;
+}
+.navbar-default .navbar-nav li:hover {
+	border-radius: 40px;
+	border: 1px solid #dd4b2b;
+}
+.navbar-default .navbar-nav li a:hover {
+	color: #dd4b2b;
+}
+/*Section hero styles*/
+.hero {
+  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0) 100%), url(img/hero-background.png);
+  background-image: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0) 100%), url(img/hero-background.png);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0) 100%), url(img/hero-background.png);
+	text-align: center;
+}
+.hero .slogan  h1 {
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+	color: #ffffff;
+	font-size: 72px;
+	font-weight: 700;
+
+	padding-top: 430px;
+}
+.hero .slogan h3 {
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 48px;
+	font-weight: 700;
+	color:#fff;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}
+.hero img {
+	padding-top: 149px;
+}
+.hero h4 {
+	color: #ffffff;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 24px;
+	padding: 20px;
+}
+.hero p {
+	color: #ffffff;
+	font-family: "Roboto";
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 30px;
+	padding-bottom: 90px;
+}
+.hero .btn-default:hover {
+	background: #fff;
+}
+.hero .btn {
+	width: 213px;
+	height: 54px;
+	border-radius: 27px;
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	background-color: #ffffff;
+	color: #612316;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+	margin-bottom: 100px
+
+}
+/*section ourNews style*/
+.ourNews {
+	text-align: center;
+	padding-top: 35px;
+	background-color: #edeff1;
+}
+.ourNews h3 {
+	color: #31353e;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 24px;
+	margin-bottom: 80px;
+}
+.ourNews img {
+	margin: 0 auto;
+}
+.ourNews h4 {
+	color: #31353e;
+	font-family: "Roboto";
+	font-size: 24px;
+	font-weight: 700;
+	padding-top: 30px;
+}
+.ourNews p {
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 30px;
+	padding-bottom: 20px
+}
+.ourNews .btn {
+	width: 179px;
+	height: 54px;
+	border-radius: 27px;
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	background-color: #ffffff;
+	margin-bottom: 70px;
+}
+.ourNews .btn-default:hover {
+	background: grey;
+	color: #fff;
+}
+/*section newsletter styles*/
+.newsletter {
+	background-image: url(img/newsletter-img.png);
+	text-align: center;
+	color:white;
+	height: auto;
+	
+}
+.newsletter h3 {
+	color: #ffffff;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 48px;
+	padding-top: 45px;
+}
+.newsletter p {
+	color: #ffffff;
+	font-family: "Roboto";
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 24px;
+	margin-bottom: 23px;
+}
+.buttonInfo .input-group {
+	padding-left: 30px;
+	margin-bottom: 60px;
+}
+.buttonInfo  input{
+	width: 300px;
+	height: 54px;
+	border-radius: 27px;
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	background-color: transparent;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+}
+.buttonInfo .btn {
+	width: 210px;
+	height: 54px;
+	border-radius: 27px;
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	background-color: #ffffff;
+	color: #612316;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+	margin-right: 10px;
+	
+}
+.buttonInfo .btn-default:hover {
+	background: grey;
+	color: #fff;
+}
+/*section products style*/
+.products {
+	margin: 50px 0 60px 0;
+	text-align: center;
+}
+.products h3 {
+	color: #191b29;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 48px;
+	
+}
+.products p {
+	color: #191b29;
+	font-family: "Roboto";
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 30px;
+}
+.products .first-product {
+	padding-bottom: 50px;
+}
+.products .product-btn {
+	/* Style for "Rounded Re" */
+	width: 213px;
+	height: 54px;
+	border-radius: 27px;
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	background-color: #dd4b2b;
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+	margin-top: 48px;
+	margin-bottom: 30px;
+}
+.products .product-btn:hover{
+	opacity: 0.6;
+}
+.products .btn-grey {
+	background-color: #4b4e73;
+}
+/*section ourLink */
+.ourLink {
+	background-color: #d75d0e;
+	text-align: center;
+	
+}
+.ourLink ol {
+	list-style-type: none;
+	margin: 98px 0 15px 0;
+}
+.ourLink ol li {
+	color: #ffffff;
+	font-family: "Roboto";
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 36px;
+	
+}
+/*style for footer*/
+.myFooter {
+	background-image: url(img/newsletter-img.png);
+	background-position: bottom
+	
+}
+.myFooter p {
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 24px;
+	font-family: 'Advent Pro', sans-serif;
+	text-align: center;
+	padding-top: 90px;
+	
+
+}
+@media (max-width: 576px ) {
+	.navbar-brand {
+		float: left;
+	}
+	.navbar-header {
+		padding-left: 50px;
+	}
+	
+}
+@media (max-width: 1199px ) {
+	.ourNewsShow {
+		opacity: 1;
+	}
+}
+
+
+
+
+	
+
+
+
+
+
